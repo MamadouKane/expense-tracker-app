@@ -27,7 +27,7 @@ Une application web élégante et intuitive pour suivre vos dépenses personnell
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/MamadouKane/expenses-tracker.git
+git clone https://github.com/MamadouKane/expenses-tracker-app.git
 cd expenses-tracker
 ```
 
