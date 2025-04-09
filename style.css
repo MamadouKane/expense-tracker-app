@@ -1,0 +1,71 @@
+.main-header {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1E88E5;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+}
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.sub-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 15px;
+}
+.metric-value {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E88E5;
+}
+.metric-label {
+    font-size: 16px;
+    color: #616161;
+}
+.stButton>button {
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    white-space: nowrap;
+    min-width: 90px;
+}
+.stButton>button:hover {
+    background-color: #1565C0;
+}
+.ticket-text {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+/* Nouvelle classe pour la section de détail du ticket avec une ombre plus prononcée */
+.ticket-detail-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.10);
+    margin: 15px 0;
+    border-left: 4px solid #1E88E5;
+}
+/* Style pour les éléments Markdown à l'intérieur du détail du ticket */
+.ticket-detail-card p, .ticket-detail-card h1, .ticket-detail-card h2 {
+    margin-bottom: 10px;
+}
+.ticket-detail-card h1 {
+    color: #1E88E5;
+    font-size: 26px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+.ticket-detail-card strong {
+    color: #424242;
+}
